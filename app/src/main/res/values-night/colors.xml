@@ -1,0 +1,35 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#BB86FC</color>
+    <color name="white">#FCFCFC</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="secondary_variant">#03DAC6</color>
+
+    <!-- Background Colors -->
+    <color name="background">#121212</color>
+    <color name="background_dark">#000000</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="text_on_primary">#000000</color>
+
+    <!-- Button Colors -->
+    <color name="button_background">#BB86FC</color>
+    <color name="button_text">#000000</color>
+
+    <!-- Accent Colors -->
+    <color name="accent">#FF4081</color>
+    <color name="error">#CF6679</color>
+
+    <!-- Splash Screen Background -->
+    <color name="splash_background">#3700B3</color>
+
+    <!-- Grays -->
+    <color name="gray_light">#757575</color>
+    <color name="gray_dark">#212121</color>
+
+    <!-- Divider -->
+    <color name="divider">#373737</color>
+</resources>

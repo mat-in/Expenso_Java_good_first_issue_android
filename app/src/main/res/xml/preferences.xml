@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SettingsFragment">
+
+    <!-- User Profile -->
+    <PreferenceCategory
+        android:title="User Profile"
+        app:iconSpaceReserved="false">
+
+        <!-- Edit Profile -->
+        <Preference
+            android:key="pref_user_profile"
+            android:title="Edit Profile"
+            android:summary="Update your personal information and profile picture"
+            app:icon="@drawable/ic_profile_foreground" />
+
+        <!-- Log Out -->
+        <Preference
+            android:key="pref_logout"
+            android:title="Log Out"
+            android:summary="Sign out of your account and clear session"
+            app:icon="@drawable/ic_logout_foreground" />
+
+    </PreferenceCategory>
+
+    <!-- Theme -->
+    <PreferenceCategory
+        android:title="Theme"
+        app:iconSpaceReserved="false">
+
+        <!-- Dark Mode Toggle -->
+        <SwitchPreferenceCompat
+            android:key="pref_dark_mode"
+            android:title="Enable Dark Mode"
+            android:summaryOn="Dark mode is active"
+            android:summaryOff="Dark mode is inactive"
+            app:icon="@drawable/ic_darkmode_foreground"
+            android:defaultValue="true" />
+
+        <!-- Theme Color Selector -->
+        <Preference
+            android:key="pref_theme_color"
+            android:title="Change Theme Color"
+            android:summary="Pick your favorite color for the app theme"
+            app:icon="@drawable/ic_palette_foreground" />
+
+    </PreferenceCategory>
+
+    <!-- Notifications -->
+    <PreferenceCategory
+        android:title="Notifications"
+        app:iconSpaceReserved="false">
+
+        <!-- Budget Alerts -->
+        <SwitchPreferenceCompat
+            android:key="pref_budget_alerts"
+            android:title="Enable Budget Alerts"
+            android:summaryOn="Alerts are enabled"
+            android:summaryOff="Alerts are disabled"
+            app:icon="@drawable/ic_notification_foreground"
+            android:defaultValue="true" />
+
+        <!-- Payment Reminders -->
+        <SwitchPreferenceCompat
+            android:key="pref_reminders"
+            android:title="Enable Payment Reminders"
+            android:summaryOn="Reminders are active"
+            android:summaryOff="Reminders are disabled"
+            app:icon="@drawable/ic_reminders_foreground"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <!-- Data Management -->
+    <PreferenceCategory
+        android:title="Data Management"
+        app:iconSpaceReserved="false">
+
+        <!-- Export Data -->
+        <Preference
+            android:key="pref_export_data"
+            android:title="Export Transactions"
+            android:summary="Save transactions as a CSV file"
+            app:icon="@drawable/ic_export_foreground" />
+
+        <!-- Import Data -->
+        <Preference
+            android:key="pref_import_data"
+            android:title="Import Transactions"
+            android:summary="Load transactions from a CSV file"
+            app:icon="@drawable/ic_import_foreground" />
+
+    </PreferenceCategory>
+
+    <!-- Help & Feedback -->
+    <PreferenceCategory
+        android:title="Help and Feedback"
+        app:iconSpaceReserved="false">
+
+        <!-- FAQs -->
+        <Preference
+            android:key="pref_faqs"
+            android:title="Frequently Asked Questions"
+            android:summary="Learn more about using the app"
+            app:icon="@drawable/ic_help_foreground" />
+
+        <!-- Feedback -->
+        <Preference
+            android:key="pref_feedback"
+            android:title="Send Feedback"
+            android:summary="Report bugs or share suggestions"
+            app:icon="@drawable/ic_feedback_foreground" />
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

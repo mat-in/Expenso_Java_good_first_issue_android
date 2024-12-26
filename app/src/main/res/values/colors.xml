@@ -1,0 +1,46 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#6200EE</color>
+    <color name="white">#FCFCFC</color>
+    <color name="colorPrimary">#FCFCFC</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="secondary_variant">#018786</color>
+
+    <color name="dashboard_background">#F0F0F0</color>
+    <color name="budget_background">#EEEEEE</color>
+    <color name="budget_food">#4CAF50</color>
+    <color name="budget_rent">#2196F3</color>
+    <color name="budget_entertainment">#F44336</color>
+
+    <!-- Background Colors -->
+    <color name="background">#FFFFFF</color>
+    <color name="background_dark">#121212</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="text_secondary">#757575</color>
+    <color name="colorAccent">#757575</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Button Colors -->
+    <color name="button_background">#6200EE</color>
+    <color name="button_text">#FFFFFF</color>
+
+    <!-- Accent Colors -->
+    <color name="accent">#FF4081</color>
+    <color name="error">#B00020</color>
+
+    <!-- Splash Screen Background -->
+    <color name="splash_background">#6200EE</color>
+
+    <!-- Grays -->
+    <color name="gray_light">#E0E0E0</color>
+    <color name="gray_dark">#424242</color>
+
+    <!-- Divider -->
+    <color name="divider">#BDBDBD</color>
+    <color name="green">#36F439</color>
+    <color name="red">#D92D20</color>
+</resources>

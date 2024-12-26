@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <resources>
+       <declare-styleable name="CircularProgressBar">
+           <attr name="cpb_progress_stroke_width" format="dimension" />
+           <!-- Other attributes -->
+       </declare-styleable>
+   </resources>
